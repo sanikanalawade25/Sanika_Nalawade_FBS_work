@@ -1,0 +1,11 @@
+def fibanoci(n):
+    a=-1
+    b=1
+    for i in range(n):
+        c=a+b
+        a=b
+        b=c
+    return c
+n=int(input("Enter Number:"))
+res=fibanoci(n)
+print(res)
