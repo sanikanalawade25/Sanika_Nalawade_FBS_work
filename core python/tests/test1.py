@@ -1,0 +1,8 @@
+# write program to find the area and perimeter of following figure (accept breadth and radius from user)
+l=int(input("Enter length:"))
+b=int(input("Enter breadth:"))
+r=int(input("Enter radius:"))
+area=(l*b)+(0.5*(22/7)*r*r)
+perimeter=l+l+b+(22/7*r)
+print('Area=',area)
+print('perimeter=',perimeter)
